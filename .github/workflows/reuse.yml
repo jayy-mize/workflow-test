@@ -13,4 +13,4 @@ jobs:
     environment: production
     steps:
     - id: step1
-      run: echo "${{inputs.username}}"
+      run: echo "${{github.event.inputs.username}}"
