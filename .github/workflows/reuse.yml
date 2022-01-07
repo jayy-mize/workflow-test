@@ -12,7 +12,9 @@ on:
 
 jobs:
   reusable_workflow_job:
+    name: "print it"
     runs-on: ubuntu-latest
     environment: production
     steps:
     - id: step1
+      run: echo "${{inputs.username}}"
