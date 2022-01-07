@@ -6,9 +6,6 @@ on:
       username:
         required: true
         type: string
-    secrets:
-      envPAT:
-        required: true
 
 jobs:
   reusable_workflow_job:
