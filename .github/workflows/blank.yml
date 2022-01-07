@@ -25,7 +25,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     uses: jayy-mize/workflow-test/.github/workflows/reuse.yml@main
     with:
-      username: $GITHUB_ACTOR
+      username: ${{GITHUB_ACTOR}}
       
     
      
