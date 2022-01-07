@@ -2,7 +2,10 @@ name: Reusable workflow
 
 on:
   workflow_call:
-
+    inputs:
+      username:
+        type: string
+      
 jobs:
   reusable_workflow_job:
     name: "print it"
